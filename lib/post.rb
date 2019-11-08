@@ -22,7 +22,7 @@ class Post
 
 
   def author_name
-    if self.author
+    if @author == nil
       self.author.title
     else 
       nil
