@@ -20,7 +20,8 @@ class Post
      end
 
 
-  def author_name()
-    
-  end
+  def author_name
+    if self.author
+      self.author.title
+      end
 end 
