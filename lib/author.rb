@@ -7,6 +7,10 @@ class Author
     @post = []
   end 
   
+  def author_name
+    
+  end 
+  
   def posts
     Post.all.select { |post| post}
 end 
