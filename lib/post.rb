@@ -1,6 +1,6 @@
 class Post 
   
-  attr_accessor :title, :author, :post
+  attr_accessor :title, :author
   
 @@post_count = 1
   @@all = []
@@ -23,6 +23,8 @@ class Post
   def author_name
     if self.author
       self.author.title
+    else 
+      nil
       end
     end 
 end 
