@@ -24,4 +24,5 @@ class Post
     if self.author
       self.author.title
       end
+    end 
 end 
