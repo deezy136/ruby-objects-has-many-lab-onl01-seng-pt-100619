@@ -20,7 +20,7 @@ class Post
      end
 
 
-  def author_name
+  def author_name()
     
   end
 end 
